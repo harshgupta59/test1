@@ -23,10 +23,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: abc
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
 
       - name: checkout tag
-        run: https://github.com/harshgupta59/test2/blob/v0.0.1/.github/workflows/hello.yaml@v0.0.1
+        uses: https://github.com/harshgupta59/test2/blob/v0.0.1/.github/workflows/hello.yaml@v0.0.1
         
         
 
